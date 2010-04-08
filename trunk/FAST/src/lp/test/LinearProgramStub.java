@@ -1,9 +1,10 @@
-package gautam;
+package lp.test;
 
-import gautam.lp.optimization.GoalType;
-import gautam.lp.optimization.OptimizationException;
-import gautam.lp.optimization.RealPointValuePair;
-import gautam.lp.optimization.linear.*;
+import lp.optimization.GoalType;
+import lp.optimization.OptimizationException;
+import lp.optimization.RealPointValuePair;
+import lp.optimization.linear.*;
+
 import java.util.ArrayList;
 import java.util.Collection;
 
