@@ -7,7 +7,7 @@ import edu.stanford.nlp.parser.lexparser.LexicalizedParser;
 import edu.stanford.nlp.process.DocumentPreprocessor;
 
     
-public class parseTest{
+public class ParseTest{
 	public static void main(String[] args){
 		LexicalizedParser lp = new LexicalizedParser("englishPCFG.ser.gz");
 		String parseInput = "This is just a test input. This contains three sentences. This is the third sentence.";

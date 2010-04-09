@@ -54,10 +54,7 @@ public class SentenceScorer {
 			int partOfSpeechScore = WordLevelFeatures.computePartOfSpeechScore(t);
 			
 			
-		/* @ Mayank, I don't know whether you require the node in the parse tree or only the string 
-		 * so feel free to change it. At present I am sending the leaf-node for the word to the method, 
-		 * but if you only want the word, change the type to 'String' instead of 'Tree'
-		 */
+		
 			int familiarityScore = WordLevelFeatures.computeFamiliarityScore(t);
 			int namedEntityScore = WordLevelFeatures.computNamedEntityScore(t);
 			int headingScore = WordLevelFeatures.computeHeadingScore(str, wordsInHeadings);
@@ -67,19 +64,21 @@ public class SentenceScorer {
 			 */
 			int wordScore = termFrequencyScore * lengthOfWordScore * partOfSpeechScore *
 							familiarityScore * namedEntityScore * headingScore;
-			/* Garbage for now */
+			/* Not Required for now */
 			sum = sum + wordScore;
 		}
 		return (double) sum + lengthOfSentence;
 	}
-	
-	/** Coding by Alhaad */
+
+        /*
+         * Checks whether a verb is present in a sentence or not
+         * TODO Coding for the module
+         */
 	public boolean isVerbPresent ()
 	{
 		return false;
 	}
 	
-	/** Gautam */
 	public int computeLengthOfSentence ()
 	{
 		return 1;
@@ -109,11 +108,10 @@ public class SentenceScorer {
 		String parseInput = "This is just a test input";
 		Tree parse = (Tree) lp.apply(parseInput);
 		SentenceScorer scorer = new SentenceScorer(parseInput, 0.5, parse, null);
-		double score = scorer.computeScore();
-		
-		
+		double score = scorer.computeScore();		
 	}
-	
+
+        /* Variables */
 	private String sentence; 
 	private double positionInText;
 	private double score;
