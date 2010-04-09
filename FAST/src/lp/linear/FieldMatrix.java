@@ -15,11 +15,11 @@
  * limitations under the License.
  */
 
-package gautam.lp.linear;
+package lp.linear;
 
 
-import gautam.lp.Field;
-import gautam.lp.FieldElement;
+import lp.Field;
+import lp.FieldElement;
 
 /**
  * Interface defining field-valued matrix with basic algebraic operations.

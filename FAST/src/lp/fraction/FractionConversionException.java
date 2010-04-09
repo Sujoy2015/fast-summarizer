@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-package gautam.lp.fraction;
+package lp.fraction;
 
-import gautam.lp.ConvergenceException;
+import lp.ConvergenceException;
 
 /**
  * Error thrown when a double value cannot be converted to a fraction

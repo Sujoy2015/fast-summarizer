@@ -14,15 +14,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package gautam.lp.linear;
+package lp.linear;
 
 import java.io.Serializable;
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
-import gautam.lp.Field;
-import gautam.lp.FieldElement;
-import gautam.lp.MathRuntimeException;
+import lp.Field;
+import lp.FieldElement;
+import lp.MathRuntimeException;
 
 /**
  * This class implements the {@link FieldVector} interface with a {@link FieldElement} array.

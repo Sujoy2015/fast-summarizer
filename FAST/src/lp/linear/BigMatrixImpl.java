@@ -15,11 +15,11 @@
  * limitations under the License.
  */
 
-package gautam.lp.linear;
+package lp.linear;
 import java.io.Serializable;
 import java.math.BigDecimal;
 
-import gautam.lp.MathRuntimeException;
+import lp.MathRuntimeException;
 
 /**
  * Implementation of {@link BigMatrix} using a BigDecimal[][] array to store entries

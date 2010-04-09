@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-package gautam.lp.linear;
+package lp.linear;
 
-import gautam.lp.MathRuntimeException;
+import lp.MathRuntimeException;
 
 /**
  * Thrown when an operation addresses a matrix coordinate (row, col)

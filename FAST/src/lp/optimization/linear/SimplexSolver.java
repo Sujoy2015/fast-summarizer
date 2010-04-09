@@ -15,11 +15,11 @@
  * limitations under the License.
  */
 
-package gautam.lp.optimization.linear;
+package lp.optimization.linear;
 
-import gautam.lp.optimization.OptimizationException;
-import gautam.lp.optimization.RealPointValuePair;
-import gautam.lp.util.MathUtils;
+import lp.optimization.OptimizationException;
+import lp.optimization.RealPointValuePair;
+import lp.util.MathUtils;
 
 
 /**

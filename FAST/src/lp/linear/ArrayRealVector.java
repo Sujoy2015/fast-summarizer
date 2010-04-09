@@ -14,13 +14,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package gautam.lp.linear;
+package lp.linear;
 
 import java.io.Serializable;
 import java.util.Arrays;
 
-import gautam.lp.MathRuntimeException;
-import gautam.lp.util.MathUtils;
+import lp.MathRuntimeException;
+import lp.util.MathUtils;
 
 /**
  * This class implements the {@link RealVector} interface with a double array.

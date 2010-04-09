@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package gautam.lp.optimization.linear;
+package lp.optimization.linear;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -27,13 +27,13 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-import gautam.lp.linear.MatrixUtils;
-import gautam.lp.linear.RealMatrix;
-import gautam.lp.linear.Array2DRowRealMatrix;
-import gautam.lp.linear.RealVector;
-import gautam.lp.optimization.GoalType;
-import gautam.lp.optimization.RealPointValuePair;
-import gautam.lp.util.MathUtils;
+import lp.linear.MatrixUtils;
+import lp.linear.RealMatrix;
+import lp.linear.Array2DRowRealMatrix;
+import lp.linear.RealVector;
+import lp.optimization.GoalType;
+import lp.optimization.RealPointValuePair;
+import lp.util.MathUtils;
 
 /**
  * A tableau for use in the Simplex method.

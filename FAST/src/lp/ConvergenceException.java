@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package gautam.lp;
+package lp;
 
 /**
  * Error thrown when a numerical computation can not be performed because the

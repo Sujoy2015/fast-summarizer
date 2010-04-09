@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-package gautam.lp.linear;
+package lp.linear;
 
-import gautam.lp.FieldElement;
+import lp.FieldElement;
 
 /**
  * Default implementation of the {@link FieldMatrixPreservingVisitor} interface.

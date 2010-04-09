@@ -14,14 +14,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package gautam.lp.fraction;
+package lp.fraction;
 
 import java.io.Serializable;
 import java.math.BigInteger;
 
-import gautam.lp.FieldElement;
-import gautam.lp.MathRuntimeException;
-import gautam.lp.util.MathUtils;
+import lp.FieldElement;
+import lp.MathRuntimeException;
+import lp.util.MathUtils;
 
 /**
  * Representation of a rational number.

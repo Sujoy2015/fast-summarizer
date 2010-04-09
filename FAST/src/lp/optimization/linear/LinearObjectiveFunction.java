@@ -15,16 +15,16 @@
  * limitations under the License.
  */
 
-package gautam.lp.optimization.linear;
+package lp.optimization.linear;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
 
-import gautam.lp.linear.MatrixUtils;
-import gautam.lp.linear.RealVector;
-import gautam.lp.linear.ArrayRealVector;
+import lp.linear.MatrixUtils;
+import lp.linear.RealVector;
+import lp.linear.ArrayRealVector;
 
 /**
  * An objective function for a linear optimization problem.
