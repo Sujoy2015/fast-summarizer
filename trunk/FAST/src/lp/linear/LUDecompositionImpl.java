@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-package gautam.lp.linear;
+package lp.linear;
 
-import gautam.lp.MathRuntimeException;
+import lp.MathRuntimeException;
 
 /**
  * Calculates the LUP-decomposition of a square matrix.

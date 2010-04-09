@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-package gautam.lp.optimization.linear;
+package lp.optimization.linear;
 
-import gautam.lp.optimization.OptimizationException;
+import lp.optimization.OptimizationException;
 
 /**
  * This class represents exceptions thrown by optimizers when no solution

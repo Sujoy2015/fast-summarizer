@@ -15,13 +15,13 @@
  * limitations under the License.
  */
 
-package gautam.lp.optimization.linear;
+package lp.optimization.linear;
 
 import java.util.Collection;
 
-import gautam.lp.optimization.GoalType;
-import gautam.lp.optimization.OptimizationException;
-import gautam.lp.optimization.RealPointValuePair;
+import lp.optimization.GoalType;
+import lp.optimization.OptimizationException;
+import lp.optimization.RealPointValuePair;
 
 /** 
  * This interface represents an optimization algorithm for linear problems.

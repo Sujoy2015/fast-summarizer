@@ -14,10 +14,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package gautam.lp.linear;
+package lp.linear;
 
-import gautam.lp.Field;
-import gautam.lp.FieldElement;
+import lp.Field;
+import lp.FieldElement;
 
 /**
  * Interface defining a field-valued vector with basic algebraic operations.

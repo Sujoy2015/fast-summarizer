@@ -15,11 +15,11 @@
  * limitations under the License.
  */
 
-package gautam.lp.fraction;
+package lp.fraction;
 
 import java.io.Serializable;
 
-import gautam.lp.Field;
+import lp.Field;
 
 /**
  * Representation of the fractional numbers field.

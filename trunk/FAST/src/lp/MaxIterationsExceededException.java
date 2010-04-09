@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-package gautam.lp;
+package lp;
 
-import gautam.lp.ConvergenceException;
+import lp.ConvergenceException;
 
 /**
  * Error thrown when a numerical computation exceeds its allowed

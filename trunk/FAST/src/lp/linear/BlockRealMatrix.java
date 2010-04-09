@@ -15,12 +15,12 @@
  * limitations under the License.
  */
 
-package gautam.lp.linear;
+package lp.linear;
 
 import java.io.Serializable;
 import java.util.Arrays;
 
-import gautam.lp.MathRuntimeException;
+import lp.MathRuntimeException;
 
 /**
  * Cache-friendly implementation of RealMatrix using a flat arrays to store

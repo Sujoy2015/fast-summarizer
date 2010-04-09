@@ -15,14 +15,14 @@
  * limitations under the License.
  */
 
-package gautam.lp.optimization.linear;
+package lp.optimization.linear;
 
 import java.util.Collection;
 
-import gautam.lp.MaxIterationsExceededException;
-import gautam.lp.optimization.GoalType;
-import gautam.lp.optimization.OptimizationException;
-import gautam.lp.optimization.RealPointValuePair;
+import lp.MaxIterationsExceededException;
+import lp.optimization.GoalType;
+import lp.optimization.OptimizationException;
+import lp.optimization.RealPointValuePair;
 
 /**
  * Base class for implementing linear optimizers.

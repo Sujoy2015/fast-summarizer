@@ -15,11 +15,11 @@
  * limitations under the License.
  */
 
-package gautam.lp.linear;
+package lp.linear;
 
 import java.io.Serializable;
 
-import gautam.lp.MathRuntimeException;
+import lp.MathRuntimeException;
 
 /**
  * Implementation of RealMatrix using a double[][] array to store entries and

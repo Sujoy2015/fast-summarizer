@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package gautam.lp.optimization;
+package lp.optimization;
 
 import java.io.Serializable;
 

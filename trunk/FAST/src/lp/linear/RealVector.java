@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package gautam.lp.linear;
+package lp.linear;
 
 /**
  * Interface defining a real-valued vector with basic algebraic operations.

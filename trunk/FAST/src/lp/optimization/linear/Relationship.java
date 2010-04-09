@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package gautam.lp.optimization.linear;
+package lp.optimization.linear;
 
 /**
  * Types of relationships between two cells in a Solver {@link LinearConstraint}.

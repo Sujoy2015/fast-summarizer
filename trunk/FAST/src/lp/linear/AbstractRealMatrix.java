@@ -23,10 +23,10 @@
  * @since 2.0
  */
 
-package gautam.lp.linear;
+package lp.linear;
 
-import gautam.lp.MathRuntimeException;
-import gautam.lp.util.MathUtils;
+import lp.MathRuntimeException;
+import lp.util.MathUtils;
 
 public abstract class AbstractRealMatrix implements RealMatrix {
     

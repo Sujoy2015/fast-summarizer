@@ -15,13 +15,13 @@
  * limitations under the License.
  */
 
-package gautam.lp.linear;
+package lp.linear;
 
 import java.io.Serializable;
 
-import gautam.lp.Field;
-import gautam.lp.FieldElement;
-import gautam.lp.MathRuntimeException;
+import lp.Field;
+import lp.FieldElement;
+import lp.MathRuntimeException;
 
 /**
  * Cache-friendly implementation of FieldMatrix using a flat arrays to store

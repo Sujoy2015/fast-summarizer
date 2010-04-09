@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package gautam.lp.linear;
+package lp.linear;
 
 import java.math.BigDecimal;
 

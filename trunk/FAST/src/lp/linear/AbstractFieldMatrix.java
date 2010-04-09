@@ -15,14 +15,14 @@
  * limitations under the License.
  */
 
-package gautam.lp.linear;
+package lp.linear;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
-import gautam.lp.Field;
-import gautam.lp.FieldElement;
-import gautam.lp.MathRuntimeException;
+import lp.Field;
+import lp.FieldElement;
+import lp.MathRuntimeException;
 
 /**
  * Basic implementation of {@link FieldMatrix} methods regardless of the underlying storage.

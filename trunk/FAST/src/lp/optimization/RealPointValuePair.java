@@ -15,11 +15,11 @@
  * limitations under the License.
  */
 
-package gautam.lp.optimization;
+package lp.optimization;
 
 import java.io.Serializable;
 
-import gautam.lp.analysis.MultivariateRealFunction;
+import lp.analysis.MultivariateRealFunction;
 
 /** 
  * This class holds a point and the value of an objective function at this point.

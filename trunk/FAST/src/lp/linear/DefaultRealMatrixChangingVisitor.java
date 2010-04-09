@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package gautam.lp.linear;
+package lp.linear;
 
 /**
  * Default implementation of the {@link RealMatrixChangingVisitor} interface.

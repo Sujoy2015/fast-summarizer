@@ -14,9 +14,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package gautam.lp;
+package lp;
 
-import gautam.lp.linear.ArrayRealVector;
+import lp.linear.ArrayRealVector;
 
 /**
  * Exception thrown when an error occurs evaluating a function.

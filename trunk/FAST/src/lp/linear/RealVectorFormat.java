@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package gautam.lp.linear;
+package lp.linear;
 
 import java.text.FieldPosition;
 import java.text.NumberFormat;
@@ -25,8 +25,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
-import gautam.lp.MathRuntimeException;
-import gautam.lp.util.CompositeFormat;
+import lp.MathRuntimeException;
+import lp.util.CompositeFormat;
 
 /**
  * Formats a vector in components list format "{v0; v1; ...; vk-1}".

@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-package gautam.lp.analysis;
+package lp.analysis;
 
-import gautam.lp.FunctionEvaluationException;
+import lp.FunctionEvaluationException;
 
 /** 
  * An interface representing a multivariate real function.

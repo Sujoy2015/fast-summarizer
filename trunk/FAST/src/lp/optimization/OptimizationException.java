@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-package gautam.lp.optimization;
+package lp.optimization;
 
-import gautam.lp.ConvergenceException;
+import lp.ConvergenceException;
 
 /** 
  * This class represents exceptions thrown by optimizers.

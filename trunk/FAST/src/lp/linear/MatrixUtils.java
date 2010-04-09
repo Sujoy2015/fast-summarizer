@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package gautam.lp.linear;
+package lp.linear;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -24,11 +24,11 @@ import java.lang.reflect.Array;
 import java.math.BigDecimal;
 import java.util.Arrays;
 
-import gautam.lp.Field;
-import gautam.lp.FieldElement;
-import gautam.lp.MathRuntimeException;
-import gautam.lp.fraction.BigFraction;
-import gautam.lp.fraction.Fraction;
+import lp.Field;
+import lp.FieldElement;
+import lp.MathRuntimeException;
+import lp.fraction.BigFraction;
+import lp.fraction.Fraction;
 
 /**
  * A collection of static methods that operate on or return matrices.

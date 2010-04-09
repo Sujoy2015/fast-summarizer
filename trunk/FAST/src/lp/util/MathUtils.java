@@ -15,13 +15,13 @@
  * limitations under the License.
  */
 
-package gautam.lp.util;
+package lp.util;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.util.Arrays;
 
-import gautam.lp.MathRuntimeException;
+import lp.MathRuntimeException;
 
 /**
  * Some useful additions to the built-in functions in {@link Math}.
