@@ -1,4 +1,5 @@
-package gautam;
+
+
 
 public class FAST {
 	public static void main ( String[] args ) 
