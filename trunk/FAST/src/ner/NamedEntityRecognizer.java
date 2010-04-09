@@ -1,4 +1,4 @@
-package manaal;
+package ner;
 
 public class NamedEntityRecognizer {
 
